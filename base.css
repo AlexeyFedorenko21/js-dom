@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+}
+
+.page {
+  display: none;
+  padding-top: 80px;
+  min-height: calc(100vh - 80px);
+}
+.page.active {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.my-left {
+  margin-left: 16px;
+}
+
+.my-right {
+  margin-right: 16px;
+}
+
+#c {
+  width: 1280px;
+  height: 720px;
+  border: 16px solid green;
+}/*# sourceMappingURL=base.css.map */
