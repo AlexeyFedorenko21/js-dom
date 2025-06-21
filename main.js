@@ -214,7 +214,7 @@ class Game {
     }
 
     tick() {
-        if (this.#player === null) return;
+        if (this.#player === null || this.#light === null || this.#coin === null) return;
         if (this.#pointer.delay > 0) { // Сбрасываем задержку с мышки
             --this.#pointer.delay;
         }
